@@ -72,14 +72,14 @@ test:
   encoding: unicode
   database: food_ordering_test
   pool: 5
-  username: fvdampmdrwxoxp
-  password: 9lgM-zvO4lOBFpQuQG8t57-GC-
+  username: gwdngwbuscusca
+  password: C3Vug4XDqi5g1LsfIh2iSm7hyA
 
 production:
   adapter: postgresql
   encoding: unicode
   database: food_ordering_production
   pool: 5
-  username: fvdampmdrwxoxp
-  password: 9lgM-zvO4lOBFpQuQG8t57-GC-
+  username: gwdngwbuscusca
+  password: C3Vug4XDqi5g1LsfIh2iSm7hyA
 
