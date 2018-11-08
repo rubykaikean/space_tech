@@ -28,7 +28,7 @@ development:
   database: food_ordering_development
   pool: 5
   username: khong
-  password: khong8888
+  password: 
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -67,19 +67,27 @@ development:
 #   username: deploy
 #   password: deploy8888
 
+# test:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: food_ordering_test
+#   pool: 5
+#   username: gwdngwbuscusca
+#   password: C3Vug4XDqi5g1LsfIh2iSm7hyA
+
 test:
   adapter: postgresql
   encoding: unicode
   database: food_ordering_test
   pool: 5
-  username: gwdngwbuscusca
-  password: C3Vug4XDqi5g1LsfIh2iSm7hyA
+  username: khong
+  password: 
 
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: food_ordering_production
-  pool: 5
-  username: gwdngwbuscusca
-  password: C3Vug4XDqi5g1LsfIh2iSm7hyA
+# production:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: food_ordering_production
+#   pool: 5
+#   username: gwdngwbuscusca
+#   password: C3Vug4XDqi5g1LsfIh2iSm7hyA
 
